@@ -11,7 +11,9 @@ class Cls1 extends React.Component{
         <h1>name:{this.name}</h1>
         <h1>location:{this.location}</h1>
         <h1>email:{this.email}</h1>
-        </>
+        <button className="btn btn-primary">click</button>
+         
+         </>
     }
 
 }
