@@ -1,10 +1,8 @@
-import Cls1 from "./Cls1"
-import Cls2 from "./Cls2"
+import ComponentA from "./ComponentA"
+
 function App(){
     return <div>
-        <Cls1 />
-        <Cls2 />
+       <ComponentA />
         </div>
-
 }
 export default App
