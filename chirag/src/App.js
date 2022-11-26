@@ -1,10 +1,11 @@
-import ComponentA from "./ComponentA"
-import ClsA from "./ClsA"
+//import ComponentA from "./ComponentA"
+//import ClsA from "./ClsA"
+import FunclsA from "./FunclsA"
 
 function App(){
     return <div>
-       <ComponentA />
-       <ClsA />
+        <FunclsA />
+       
         </div>
 }
 export default App
