@@ -1,3 +1,4 @@
+//class to class
 import React from "react"
 import ClsB from "./ClsB"
 class ClsA extends React.Component{
