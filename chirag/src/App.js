@@ -2,12 +2,11 @@
 //import ClsA from "./ClsA"
 //import FunclsA from "./FunclsA"
 //import ClsfunA from "./ClsfunA"
-import Product from "./state/product"
-
+//import Product from "./state/product"
+import Flip from "./Flip"
 function App(){
     return <div>
-       <Product />
-       
+       <Flip />
         </div>
 }
 export default App
