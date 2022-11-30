@@ -16,9 +16,8 @@ class Employee extends React.Component{
                         <td>gender</td>
                     </tr>
                 </thead>
-                <tbody>
-                    {
-                       employees.map((ok)=>{
+                <tbody>{
+                    employees.map((ok)=>{
                         return <tr key={ok.id}>
                             <td>{ok.id}</td>
                             <td>{ok.first_name}</td>
@@ -26,8 +25,9 @@ class Employee extends React.Component{
                             <td>{ok.email}</td>
                             <td>{ok.gender}</td>
                         </tr>
-                       })
-                    }
+                    })}
+                
+                    
                 </tbody>
 
             </table>
