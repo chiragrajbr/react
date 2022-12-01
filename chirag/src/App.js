@@ -6,10 +6,11 @@
 //import Flip from "./Flip"
 //import Event1 from "./event/Event1"
 //import Message from "./event/Message"
-import Employee from "./list rendering/Employee"
+//import Employee from "./list rendering/Employee"
+import Form from "./form handling/Form"
 function App(){
     return <div>
-       <Employee />
+       <Form />
         </div>
 }
 export default App
