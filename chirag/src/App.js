@@ -7,10 +7,12 @@
 //import Event1 from "./event/Event1"
 //import Message from "./event/Message"
 //import Employee from "./list rendering/Employee"
-import Form from "./form handling/Form"
+//import Form from "./form handling/Form"
+//import Registration from "./form handling/Registration "
+import Bootstrapform from "./form handling/Bootstrapform"
 function App(){
     return <div>
-       <Form />
+       <Bootstrapform  />
         </div>
 }
 export default App
