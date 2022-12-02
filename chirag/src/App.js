@@ -9,10 +9,11 @@
 //import Employee from "./list rendering/Employee"
 //import Form from "./form handling/Form"
 //import Registration from "./form handling/Registration "
-import Bootstrapform from "./form handling/Bootstrapform"
+//import Bootstrapform from "./form handling/Bootstrapform"
+import Event2 from "./event/Event2"
 function App(){
     return <div>
-       <Bootstrapform  />
+       <Event2 />
         </div>
 }
 export default App
