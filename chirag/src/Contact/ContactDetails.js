@@ -11,8 +11,8 @@ import React, { Component } from 'react'
         <div class="row">
           <div className="col">
         
-        <table className='table'>
-            <thead>
+        <table className='table table-striped table-primary '>
+            <thead className='table'>
                 <tr>
                     <th>id</th>
                     <th>name</th>
