@@ -14,22 +14,16 @@
 //import Axios1 from "./Axios/Axios1"
 //import ContactHome from "./Contact/ContactHome"
 
-import Navbar from "./Routing/Navbar"
+/*import Navbar from "./Routing/Navbar"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./Routing/Home"
 import Service from "./Routing/Service"
-import About from "./Routing/About"
-
+import About from "./Routing/About"*/
+//import Hook1 from "./Hooks/Hook1"
+import Flipkart from "./Hooks/Flipkart"
 function App(){
     return <div>
-        <Router>
-       <Navbar />
-       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/about" element={<About />} />
-       </Routes>
-       </Router>
+        <Flipkart />
         </div>
 }
 export default App
