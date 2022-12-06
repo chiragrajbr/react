@@ -12,13 +12,24 @@
 //import Bootstrapform from "./form handling/Bootstrapform"
 //import Event2 from "./event/Event2"
 //import Axios1 from "./Axios/Axios1"
-import ContactHome from "./Contact/ContactHome"
-//import Router2 from "./Router/Router2"
-//import {Router,Route} from "react-router-dom"
+//import ContactHome from "./Contact/ContactHome"
+
+import Navbar from "./Routing/Navbar"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from "./Routing/Home"
+import Service from "./Routing/Service"
+import About from "./Routing/About"
+
 function App(){
     return <div>
-       <ContactHome />
-       
+        <Router>
+       <Navbar />
+       <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/about" element={<About />} />
+       </Routes>
+       </Router>
         </div>
 }
 export default App
