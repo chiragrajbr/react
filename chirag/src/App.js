@@ -20,10 +20,12 @@ import Home from "./Routing/Home"
 import Service from "./Routing/Service"
 import About from "./Routing/About"*/
 //import Hook1 from "./Hooks/Hook1"
-import Flipkart from "./Hooks/Flipkart"
+//import Flipkart from "./Hooks/Flipkart"
+//import Hook2form from "./Hooks/Hook2form"
+import Formusestate from "./Hooks/Formusestate"
 function App(){
     return <div>
-        <Flipkart />
+        <Formusestate />
         </div>
 }
 export default App
