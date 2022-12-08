@@ -14,6 +14,8 @@
 //import Axios1 from "./Axios/Axios1"
 //import ContactHome from "./Contact/ContactHome"
 
+//import Form3 from "./Hooks usestate/Form3"
+
 /*import Navbar from "./Routing/Navbar"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./Routing/Home"
@@ -22,10 +24,10 @@ import About from "./Routing/About"*/
 //import Hook1 from "./Hooks/Hook1"
 //import Flipkart from "./Hooks/Flipkart"
 //import Hook2form from "./Hooks/Hook2form"
-import Formusestate from "./Hooks usestate/Formusestate"
+import Form3 from "./Hooks usestate/Form3"
 function App(){
     return <div>
-        <Formusestate />
+        <Form3 />
         </div>
 }
 export default App

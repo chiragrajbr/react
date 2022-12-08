@@ -1,4 +1,5 @@
 //hook usestate with form
+//separate handlers
 import React from 'react'
 import { useState } from 'react'
 
