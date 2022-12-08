@@ -4,17 +4,18 @@ import { useState } from 'react'
 import { useRef } from 'react'
 
 const Hook1 = () => {
-    let btncheck=useRef(null)
+    let check=useRef(null)
     let [state,setstate]=useState(false)
     let checked=(event)=>{
         setstate(event.target.checked)
         if(event.target.checked===true){
-            btncheck.current.disabled=false
+            check.current.disabled=false
         }
+        
         else{
-            btncheck.current.disabled=true
+          check.current.disabled=true
         }
-    }
+      }
 
   return (
     <div>
@@ -31,7 +32,7 @@ const Hook1 = () => {
                     <div className='form-group'><input type="text" placeholder='password' name='password' className='form-control'/></div>
                     <div className='form-group'><input type="text" placeholder='location' name='loction' className='form-control'/></div>
                     <div className='form-check'><input type="checkbox" className='form-check-input' onClick={checked}/>please accept terms and condition</div>
-                    <button className='btn btn-warning' ref={btncheck} disabled>login</button>
+                    <button className='btn btn-warning' ref={check} disabled>login</button>
                     
                 </form>
                 </div>
