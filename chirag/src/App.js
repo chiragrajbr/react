@@ -23,11 +23,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./Routing/Home"
 import Service from "./Routing/Service"
 import About from "./Routing/About"*/
-import Hook1 from "./Hooks useref/Hook1"
+//import Hook1 from "./Hooks useref/Hook1"
+import Home from "./Productapp/Home"
+
+import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
 
 function App(){
     return <div>
-       <Hook1 />
+        <Home />
         </div>
 }
 export default App
