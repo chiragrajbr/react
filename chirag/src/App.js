@@ -24,13 +24,15 @@ import Home from "./Routing/Home"
 import Service from "./Routing/Service"
 import About from "./Routing/About"*/
 //import Hook1 from "./Hooks useref/Hook1"
-import Home from "./Productapp/Home"
-
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
-
+//import Home from "./Productapp/Home"
+//import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
+/*import Home from "./Task/Home"
+import Service from "./Task/Service"
+import { BrowserRouter as Router,Routes,Route} from "react-router-dom"*/
+import Color from "./Task/Focus"
 function App(){
     return <div>
-        <Home />
+       <Color />
         </div>
 }
 export default App
