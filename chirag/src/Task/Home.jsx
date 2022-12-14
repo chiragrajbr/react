@@ -1,32 +1,51 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
+import {Link}from "react-router-dom"
 
-const Home = () => {
-  const bgimg={
-    backgroundImage: "url('https://houseey-blog.s3.ap-southeast-1.amazonaws.com/blog/wp-content/uploads/2020/05/07205420/bangalore1-reuters-traffic-moves-along-a-road-in-the-southern-indian-city-of-bangalore-december-14-2005.jpg')",
-    fontSize:'50px',
-    height:"100%",
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-};
-  return (
-    <div style={bgimg}>
-      <nav className='navbar navbar-expand-lg bg-dark mt-3'>
-        <h1 className='navbar-brand text-white'>Smart City</h1>
-        <div className='ml-auto'>
-          <ul className='navbar-nav'>
-            <li className='nav-link'>
-              <Link to="/service" >Service</Link>
+class Home extends Component {
+  render() {
+    return (
+      <div>
+        
+        <nav className='navbar navbar-expand-lg bg-dark'>
+            <div className='navbar-brand text-white'><h2>PROSTACK ACADEMY</h2> </div>
+            <div className='ml-auto'>
+                <ul className='navbar-nav'>
+                    <li className='nav-list'><Link className='nav-link text-white' to="./Contact">contact</Link></li>
+                    <li className='nav-list'><Link  className='nav-link text-white' to="./Loginpage">login</Link></li>
+                    <li className='nav-list'><Link  className='nav-link text-white' to="./Service">service</Link></li>
 
-            </li>
-
-          </ul>
+                </ul>
+            </div>
+            
+        </nav>
+        
+        <div className="container-fluid"  style={{ 
+      backgroundImage: `url("https://images.pexels.com/photos/259707/pexels-photo-259707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      height:'100%'}}>
+        <h1 className='text-success'><center>WELCOME</center></h1>
+        <h3 className='text-white'><center>Register for more details</center></h3>
+        <div className="row">
+          <div className="col-4"></div>
+          <div className="col-4">
+          <form>
+            <div className='form-group'><input type="text" className='form-control' placeholder='name'></input></div>
+            <div className='form-group'><input type="text" className='form-control' placeholder='email'></input></div>
+          <div className='form-group'><input type="text" className='form-control' placeholder='mobile no'></input></div>
+          <button className='btn btn-primary'>submit</button>
+          </form>
+          </div>
         </div>
-       </nav>
-     </div>
-      
+      </div>
     
-  )
+        </div>
+        
+
+        
+      
+    )
+  }
 }
 
 export default Home

@@ -18,21 +18,28 @@
 //import Flipkart from "./Hooks/Flipkart"
 //import Hook2form from "./Hooks/Hook2form"
 
-/*import Navbar from "./Routing/Navbar"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from "./Routing/Home"
-import Service from "./Routing/Service"
-import About from "./Routing/About"*/
-//import Hook1 from "./Hooks useref/Hook1"
-//import Home from "./Productapp/Home"
-//import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
-/*import Home from "./Task/Home"
-import Service from "./Task/Service"
-import { BrowserRouter as Router,Routes,Route} from "react-router-dom"*/
-import Color from "./Task/Focus"
-function App(){
-    return <div>
-       <Color />
-        </div>
+/*import React from 'react'
+import Home from './Project/Home'
+import About from './Project/About'
+import Facilities from './Project/Facilities'
+import Login from './Project/Login'
+import Education from './Project/Education'
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+import Job from './Project/Job'*/
+import Intro from "./comproject/intro/Intro"
+import About from "./comproject/About/About"
+import Contact from "./comproject/contact/Contact"
+
+
+const App = () => {
+  return (
+    <div >
+      <Intro/>
+      <About/>
+      <Contact/>
+     
+    </div>
+  )
 }
+
 export default App
