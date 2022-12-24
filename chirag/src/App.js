@@ -26,19 +26,22 @@ import Login from './Project/Login'
 import Education from './Project/Education'
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
 import Job from './Project/Job'*/
-import Intro from "./comproject/intro/Intro"
+/*import Intro from "./comproject/intro/Intro"
 import About from "./comproject/About/About"
-import Contact from "./comproject/contact/Contact"
+import Contact from "./comproject/contact/Contact"*/
+import React from "react"
+import Message from "./Redux/Message/Message"
+import {Provider} from "react-redux"
+import { store } from "./Redux/Store"
 
 
 const App = () => {
   return (
     <div >
-      <Intro/>
-      <About/>
-      <Contact/>
-     
-    </div>
+      <Provider store={store}>
+      <Message />
+      </Provider>
+      </div>
   )
 }
 
