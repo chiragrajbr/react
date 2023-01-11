@@ -41,7 +41,7 @@ class Product extends React.Component{
                         <tbody className="table table-light">
                             <tr>
                                 <td>{this.state.name}</td>
-                                <td><img src={this.state.image}height="100px"></img></td>
+                                <td><img src={this.state.image}height="100px" alt=""></img></td>
                                 <td>{this.state.price}</td>
                                 <td><i className="fa fa-minus-circle " onClick={this.decrement}></i>{this.state.quntity}<i className="fa fa-plus-circle "onClick={this.increment}></i></td>
                                 <td>{this.state.price * this.state.quntity}</td>
@@ -49,7 +49,7 @@ class Product extends React.Component{
                             </tr>
                             <tr>
                             <td>{this.state.names}</td>
-                                <td><img src={this.state.images}height="100px"></img></td>
+                                <td><img src={this.state.images}height="100px" alt=""></img></td>
                                 <td>{this.state.prices}</td>
                                 <td><i className="fa fa-minus-circle " onClick={this.decrement}></i>{this.state.quntity}<i className="fa fa-plus-circle "onClick={this.increment
                                 }></i></td>

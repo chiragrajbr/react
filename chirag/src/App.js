@@ -2,7 +2,7 @@
 //import ClsA from "./ClsA"
 //import FunclsA from "./FunclsA"
 //import ClsfunA from "./ClsfunA"
-//import Product from "./state/product"
+import Product from "./state/product"
 //import Flip from "./Flip"
 //import Event1 from "./event/Event1"
 //import Message from "./event/Message"
@@ -29,18 +29,16 @@ import Job from './Project/Job'*/
 /*import Intro from "./comproject/intro/Intro"
 import About from "./comproject/About/About"
 import Contact from "./comproject/contact/Contact"*/
-import React from "react"
-import Message from "./Redux/Message/Message"
-import {Provider} from "react-redux"
-import { store } from "./Redux/Store"
+//import React from "react"
+//import Message from "./Redux/Message/Message"
+//import {Provider} from "react-redux"
+//import { store } from "./Redux/Store"
 
 
 const App = () => {
   return (
     <div >
-      <Provider store={store}>
-      <Message />
-      </Provider>
+      <Product />
       </div>
   )
 }
